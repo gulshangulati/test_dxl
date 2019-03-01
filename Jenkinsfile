@@ -30,6 +30,7 @@ pipeline {
             def no_pods
             sh """
             kubectl get pods -n dev
+            kubectl get pods -n chatbot-preprod-uk 
             """
              }
         }
