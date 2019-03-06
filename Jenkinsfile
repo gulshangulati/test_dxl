@@ -17,7 +17,7 @@ pipeline {
                   }
          }
         }
-        stage ('two')
+        stage ('two stepp')
         {
             agent {
         label "kubectl"
